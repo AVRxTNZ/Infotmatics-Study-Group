@@ -1,0 +1,74 @@
+body {
+	background-color: aquamarine;
+}
+
+/*Footer*/
+footer {
+	margin-top: 110px;
+	font-size: 12px; /* Mengatur ukuran font */
+	font-family: monospace; /* Menentukan jenis font */
+}
+
+/* Ini komentar */
+/* Untuk selector id menggunakan tanda"#" dan untuk class menggunakann tanda "." */
+/* Untuk selector id menggunakan tanda"#" dan untuk class menggunakann tanda "." */
+/* Untuk selector id menggunakan tanda"#" dan untuk class menggunakann tanda "." */
+
+#copy {
+	font-weight: bold; /* Menentukan ketebalan font */
+}
+
+/* -- Kotak -- */
+.box {
+	margin: auto; /* margin berfungsi untuk mengatur jarak antara pinggiran terluar layar browser dengan border/content */
+	margin-top: 80px;
+	text-align: center; /* mengatur posisi text/konten*/
+	padding: 10px; /* padding berfungsi sebgai pengatur jarak antara border/bagian terluar dari wadah (biasanya div) dengan objek atau konten yang didalam */
+	width: 500px;
+	height: 500px;
+	border: double 10px; /* Berfungsi untuk membuat border (garis pinggir) mendjadi 2 garis*/
+	background-color: rgb(238, 255, 0);
+}
+
+/* Kotak - Isi Kotak */
+.box h2 {
+	/* Font Setting */
+	font-size: 17px; /* Untuk ukuran font*/
+	font-family: "Courier New", Courier, monospace; /* Jenis Font*/
+	font-weight: bold; /* Ketebalan dari font*/
+
+	margin-top: -10px;
+	border: dotted; /* Ini untuk membuat border titik"*/
+	border-color: red;
+	color: rgb(67, 95, 172);
+}
+
+#logo {
+	width: 150px;
+	height: 150px;
+	border-radius: 100px; /* Mengatur frame pada ketajaman sudut (semakin tinggi akan menjadi bentuk bulat) */
+}
+
+.btn {
+	margin-top: 90px;
+}
+
+.btn a {
+	/* Ini menunjukan bahwa properti yang ada hanya akan terpengaruh pada element "a" pada class btn*/
+	background-color: green;
+	color: white;
+	padding: 12px 20px;
+	border: solid; /* Border dengan 1 garis*/
+	font-size: 50px;
+	text-decoration: none; /* Untuk menghapus garis bawah pada text achor ("<a>") */
+}
+
+.btn a:hover {
+	/* Hover merupakan pseudo selector yang berufingis ketika kursor berada pada tombol/area dari selector*/
+	background-color: blue;
+}
+
+.btn a:active {
+	/* Active seperti hover yang merupakan pseudo selector yang berfungsi ketika tombol ditekan*/
+	background-color: red;
+}
